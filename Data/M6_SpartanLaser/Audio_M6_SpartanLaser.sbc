@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sounds>
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>M6_SpartanLaser_Charge</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>0.80</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MXA\M6_SpartanLaser_ChargeIn.wav</Start>
+          <Loop>Audio\MXA\M6_SpartanLaser_ChargeLoop.wav</Loop>
+          <End>Audio\MXA\M6_SpartanLaser_ChargeOut.wav</End>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>M6_SpartanLaser_Fire</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="10" Distance="200" Sound="M6_SpartanLaser_FireDistant" />
+      </DistantSounds>
+      <Volume>0.80</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MXA\M6_SpartanLaser_Fire1.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\MXA\M6_SpartanLaser_Fire2.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\MXA\M6_SpartanLaser_Fire3.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>M6_SpartanLaser_FireDistant</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>1000</MaxDistance>
+      <Volume>0.80</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MXA\M6_SpartanLaser_FireDistant1.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\MXA\M6_SpartanLaser_FireDistant2.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\MXA\M6_SpartanLaser_FireDistant3.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>M6_SpartanLaser_Overheat</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>15</MaxDistance>
+      <Volume>0.80</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MXA\M6_SpartanLaser_Overheat1.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\MXA\M6_SpartanLaser_Overheat2.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\MXA\M6_SpartanLaser_Overheat3.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>M6_SpartanLaser_Impact</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>15</MaxDistance>
+      <Volume>0.80</Volume>
+      <Loopable>false</Loopable>
+      <SoundLimit>4</SoundLimit>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MXA\M6_SpartanLaser_Impact1.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\MXA\M6_SpartanLaser_Impact2.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\MXA\M6_SpartanLaser_Impact3.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\MXA\M6_SpartanLaser_Impact4.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\MXA\M6_SpartanLaser_Impact5.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+  </Sounds>
+</Definitions>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>M6_SpartanLaser</SubtypeId>
+      </Id>
+      <DisplayName>Halo M6 GGNR Spartan Laser</DisplayName>
+      <Icon>Textures\Icons\Halo M6 GGNR Spartan Laser.dds</Icon>
+      <Prerequisites>
+        <Component Subtype="Construction" Count="2" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="M6_SpartanLaser" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>M6_SpartanLaser_Ammo</SubtypeId>
+      </Id>
+      <DisplayName>Halo M6 GGNR Spartan Laser Ammo</DisplayName>
+      <Icon>Textures\Icons\Halo M6 GGNR Spartan Laser Ammo.dds</Icon>
+      <!--Series 6971 Battery Cell-->
+      <!--4 Shots-->
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="0.2" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="0.2" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="0.2" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="0.2" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="0.2" TypeId="Ingot" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="AmmoMagazine" SubtypeId="M6_SpartanLaser_Ammo" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>

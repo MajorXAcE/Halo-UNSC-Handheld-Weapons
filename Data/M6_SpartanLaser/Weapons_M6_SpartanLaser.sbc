@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapons>
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>M6_SpartanLaser</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="1" ShootSoundName="" ShotsInBurst="1" />
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.1</DeviateShotAngle>
+      <DeviateShotAngleAiming>0.1</DeviateShotAngleAiming>
+      <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>1</MuzzleFlashLifeSpan>
+      <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
+      <ReloadTime>500</ReloadTime> <!--
+	  <Effects>
+        <Effect Action="Shoot" Dummy="muzzle_projectile" Particle="Muzzle_Flash" Loop="true" />
+        <Effect Action="Shoot" Dummy="Shell_Casings" Particle="Shell_Casings" />
+      </Effects>-->
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="M6_SpartanLaser_Ammo" />
+      </AmmoMagazines>
+      <ShootDirectionUpdateTime>120</ShootDirectionUpdateTime>
+      <EquipDuration>0.5</EquipDuration>
+      <ShakeOnActionPrimary>true</ShakeOnActionPrimary>
+      <ShakeOnActionSecondary>false</ShakeOnActionSecondary>
+      <ShakeOnActionTertiary>false</ShakeOnActionTertiary>
+    </Weapon>
+
+  </Weapons>
+</Definitions>

@@ -1,0 +1,629 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sounds>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>ARC920_Halo_Handheld_Weapon_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>1</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ARC920_Halo_Handheld_Weapon_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\ARC920_Halo_Handheld_Weapon_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\ARC920_Halo_Handheld_Weapon_Sound_3.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>BR85_Halo_Handheld_Weapon_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>0.50</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\BR85_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\BR85_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\BR85_Sound_3.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\BR85_Sound_4.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\BR85_Sound_5.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>BR55_Halo_Handheld_Weapon_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>0.40</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\BR55_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\BR55_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\BR55_Sound_3.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\BR55_Sound_4.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\BR55_Sound_5.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>M395_Halo_Handheld_Weapon_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>0.50</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\M395_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M395_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M395_Sound_3.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M395_Sound_4.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M395_Sound_5.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>MA5D_Halo_Handheld_Weapon_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>0.50</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MA5D_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\MA5D_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\MA5D_Sound_3.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>MA37_Halo_Handheld_Weapon_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>0.50</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MA37_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\MA37_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\MA37_Sound_3.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>MA5B_Halo_Handheld_Weapon_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>0.80</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MA5B_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\MA5B_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\MA5B_Sound_3.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\MA5B_Sound_4.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>MA5C_Halo_Handheld_Weapon_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>0.80</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MA5C_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\MA5C_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\MA5C_Sound_3.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>M7S_Halo_Handheld_Weapon_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>50</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\M7S_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M7S_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M7S_Sound_3.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>M7_Halo_Handheld_Weapon_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>0.50</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\M7_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M7_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M7_Sound_3.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M7_Sound_4.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M7_Sound_5.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>M45_Halo_Handheld_Weapon_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\M45_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M45_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M45_Sound_3.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>M45D_Halo_Handheld_Weapon_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>0.50</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\M45D_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M45D_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M45D_Sound_3.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M45D_Sound_4.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M45D_Sound_5.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>M90_Halo_Handheld_Weapon_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\M90_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M90_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M90_Sound_3.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>M392_DMR_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>0.50</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\M392_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M392_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M392_Sound_3.xwm</Start>
+        </Wave>
+        <!-- 
+        <Wave Type="D3">
+          <Start>Audio\M392_Sound_4.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M392_Sound_5.xwm</Start>
+        </Wave>
+        -->
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>M739_Halo_Handheld_Weapon_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>0.50</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\M739_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M739_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M739_Sound_3.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SRS99_S5_Halo_Handheld_Weapon_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>0.50</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SRS99_S5_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\SRS99_S5_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\SRS99_S5_Sound_3.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\SRS99_S5_Sound_4.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SRS99_Halo_Handheld_Weapon_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>0.80</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SRS99_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\SRS99_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\SRS99_Sound_3.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\SRS99_Sound_4.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SRS99D_S2_Halo_Handheld_Weapon_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>0.50</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SRS99D_S2_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\SRS99D_S2_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\SRS99D_S2_Sound_3.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\SRS99D_S2_Sound_4.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>M6C_SOCOM_Halo_Handheld_Weapon_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>50</MaxDistance>
+      <Volume>0.50</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\M6C_SOCOM_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M6C_SOCOM_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M6C_SOCOM_Sound_3.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M6C_SOCOM_Sound_3.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>M6D_Halo_Handheld_Weapon_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>0.50</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\M6D_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M6D_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M6D_Sound_3.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>M6G_Halo_Handheld_Weapon_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>0.50</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\M6G_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M6G_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M6G_Sound_3.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M6G_Sound_3.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>M6H_Halo_Handheld_Weapon_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>0.50</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\M6H_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M6H_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M6H_Sound_3.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M6H_Sound_4.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M6H_Sound_5.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>M41_SPNKr_Halo_Handheld_Weapon_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>0.50</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\M41_SPNKr_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M41_SPNKr_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M41_SPNKr_Sound_3.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M41_SPNKr_Sound_4.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M41_SPNKr_Sound_5.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M41_SPNKr_Sound_6.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M41_SPNKr_Sound_7.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>M319_Halo_Handheld_Weapon_Sounds</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>0.80</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\M319_Sound.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M319_Sound_2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M319_Sound_3.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M319_Sound_4.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M319_Sound_5.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M319_Sound_6.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M319_Sound_7.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M319_Sound_8.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M319_Sound_9.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\M319_Sound_10.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+  </Sounds>
+</Definitions>

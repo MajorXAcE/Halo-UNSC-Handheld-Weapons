@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Ammos>
+
+		<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+			<!--Series 6971 Battery Cell-->
+			<!--4 Shots-->
+			<Id>
+				<TypeId>AmmoDefinition</TypeId>
+				<SubtypeId>M6_SpartanLaser_Shot</SubtypeId>
+			</Id>
+			<BasicProperties>
+				<DesiredSpeed>300</DesiredSpeed>
+				<SpeedVariance>0</SpeedVariance>
+				<MaxTrajectory>1000</MaxTrajectory>
+				<BackkickForce>2</BackkickForce>
+				<PhysicalMaterial>RifleBullet</PhysicalMaterial>
+			</BasicProperties>
+			<ProjectileProperties>
+				<ProjectileTrailProbability>1</ProjectileTrailProbability>
+				<ProjectileTrailColor x="2.0" y="2.0" z="2.0" />
+				<ProjectileTrailScale>0.05</ProjectileTrailScale>
+				<ProjectileHitImpulse>6</ProjectileHitImpulse>
+				<ProjectileMassDamage>45</ProjectileMassDamage>
+				<ProjectileHealthDamage>36</ProjectileHealthDamage>
+				<HeadShot>true</HeadShot>
+				<ProjectileHeadShotDamage>60</ProjectileHeadShotDamage>
+				<ProjectileCount>1</ProjectileCount>
+			</ProjectileProperties>
+		</Ammo>
+
+	</Ammos>
+</Definitions>

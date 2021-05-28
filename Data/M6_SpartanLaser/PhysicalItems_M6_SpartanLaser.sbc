@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>
+
+    <PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
+      <Id>
+        <TypeId>PhysicalGunObject</TypeId>
+        <SubtypeId>M6_SpartanLaser</SubtypeId>
+      </Id>
+      <DisplayName>Halo M6 GGNR Spartan Laser</DisplayName>
+      <Icon>Textures\Icons\Halo M6 GGNR Spartan Laser.dds</Icon>
+      <Size>
+        <X>0.8</X>
+        <Y>0.24</Y>
+        <Z>0.08</Z>
+      </Size>
+      <Mass>20.4</Mass>
+      <Volume>45</Volume>
+      <Model>Models\M6_SpartanLaser.mwm</Model>
+      <WeaponDefinitionId Subtype="M6_SpartanLaser" />
+      <ShowAmmoCount>true</ShowAmmoCount>
+    </PhysicalItem>
+
+  </PhysicalItems>
+</Definitions>

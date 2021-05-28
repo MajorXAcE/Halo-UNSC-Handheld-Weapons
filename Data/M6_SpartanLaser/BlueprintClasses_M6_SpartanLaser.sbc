@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClassEntries>
+
+    <Entry Class="Components" BlueprintSubtypeId="M6_SpartanLaser_Ammo" />
+    <Entry Class="Ammo" BlueprintSubtypeId="M6_SpartanLaser_Ammo" />
+    <Entry Class="EliteTools" BlueprintSubtypeId="M6_SpartanLaser" />
+
+  </BlueprintClassEntries>
+</Definitions>
