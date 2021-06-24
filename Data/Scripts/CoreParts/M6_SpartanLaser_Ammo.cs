@@ -73,7 +73,7 @@ namespace Scripts
                 SelfDamage = true, // true = allow self damage.
                 HealthHitModifier = 0.5, // defaults to a value of 1, this setting modifies how much Health is subtracted from a projectile per hit (1 = per hit).
                 VoxelHitModifier = -1f,
-                Characters = 1f,
+                Characters = 0.1f,
                 // modifier values: -1 = disabled (higher performance), 0 = no damage, 0.01 = 1% damage, 2 = 200% damage.
                 FallOff = new FallOffDef
                 {

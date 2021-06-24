@@ -9,8 +9,8 @@
       </Id>
       <DisplayName>Halo M6 GGNR Spartan Laser Ammo</DisplayName>
       <Description>Series 6971 Battery Cell
-	  4 Shots</Description>
-      <Icon>Textures\Icons\Halo M6 GGNR Spartan Laser Ammo.dds</Icon>
+	  5 Shots</Description>
+      <Icon>Textures\GUI\Icons\Halo M6 GGNR Spartan Laser Ammo.dds</Icon>
       <Size>
         <X>0.1</X>
         <Y>0.1</Y>
@@ -20,7 +20,7 @@
       <Volume>0.2</Volume>
       <Model>Models\Weapons\M6_SpartanLaser_Ammo_Small.mwm</Model>
       <PhysicalMaterial>Ammo</PhysicalMaterial>
-      <Capacity>300</Capacity>
+      <Capacity>150</Capacity>
       <AmmoDefinitionId Subtype="Blank" />
     </AmmoMagazine>
 

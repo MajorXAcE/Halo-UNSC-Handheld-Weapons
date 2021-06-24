@@ -10,7 +10,7 @@
       <DisplayName>Halo M392 DMR Ammo</DisplayName>
       <Description>7.62x51mm M118 Full Metal Jacket Armor-Piercing Rounds
 	  15-Round Box Magazine</Description>
-      <Icon>Textures\Icons\Halo M392 DMR Ammo.dds</Icon>
+      <Icon>Textures\GUI\Icons\Halo M392 DMR Ammo.dds</Icon>
       <Size>
         <X>0.1</X>
         <Y>0.1</Y>

@@ -8,7 +8,7 @@
         <SubtypeId>M6_SpartanLaser</SubtypeId>
       </Id>
       <DisplayName>Halo M6 GGNR Spartan Laser</DisplayName>
-      <Icon>Textures\Icons\Halo M6 GGNR Spartan Laser.dds</Icon>
+      <Icon>Textures\GUI\Icons\Halo M6 GGNR Spartan Laser.dds</Icon>
       <Prerequisites>
         <Component Subtype="Construction" Count="2" />
         <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
@@ -29,7 +29,7 @@
         <SubtypeId>M6_SpartanLaser_Ammo</SubtypeId>
       </Id>
       <DisplayName>Halo M6 GGNR Spartan Laser Ammo</DisplayName>
-      <Icon>Textures\Icons\Halo M6 GGNR Spartan Laser Ammo.dds</Icon>
+      <Icon>Textures\GUI\Icons\Halo M6 GGNR Spartan Laser Ammo.dds</Icon>
       <!--Series 6971 Battery Cell-->
       <!--4 Shots-->
       <Prerequisites>

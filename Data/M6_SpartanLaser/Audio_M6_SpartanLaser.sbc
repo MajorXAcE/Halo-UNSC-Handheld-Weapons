@@ -95,7 +95,7 @@
       </Id>
       <Category>WEP_SHIP</Category>
       <MaxDistance>15</MaxDistance>
-      <Volume>0.80</Volume>
+      <Volume>0.10</Volume>
       <Loopable>false</Loopable>
       <SoundLimit>4</SoundLimit>
       <Waves>

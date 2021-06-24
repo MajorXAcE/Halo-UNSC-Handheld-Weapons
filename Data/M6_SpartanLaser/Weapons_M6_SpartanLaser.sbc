@@ -20,7 +20,7 @@
         <Effect Action="Shoot" Dummy="Shell_Casings" Particle="Shell_Casings" />
       </Effects>-->
       <AmmoMagazines>
-        <AmmoMagazine Subtype="M6_SpartanLaser_Ammo" />
+        <AmmoMagazine Subtype="M6_SpartanLaser_Ammo" /> <!--M6_SpartanLaser_Ammo-->
       </AmmoMagazines>
       <ShootDirectionUpdateTime>120</ShootDirectionUpdateTime>
       <EquipDuration>0.5</EquipDuration>

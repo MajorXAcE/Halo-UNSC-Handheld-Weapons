@@ -8,7 +8,7 @@
         <SubtypeId>M392_DMR</SubtypeId>
       </Id>
       <DisplayName>Halo M392 DMR</DisplayName>
-      <Icon>Textures\Icons\Halo M392 DMR.dds</Icon>
+      <Icon>Textures\GUI\Icons\Halo M392 DMR.dds</Icon>
       <Prerequisites>
         <Item Amount="2" TypeId="Ingot" SubtypeId="Iron" />
         <Item Amount="1" TypeId="Ingot" SubtypeId="Silicon" />
@@ -24,7 +24,7 @@
         <SubtypeId>M392_DMR_Ammo</SubtypeId>
       </Id>
       <DisplayName>Halo M392 DMR Ammo</DisplayName>
-      <Icon>Textures\Icons\Halo M392 DMR Ammo.dds</Icon>
+      <Icon>Textures\GUI\Icons\Halo M392 DMR Ammo.dds</Icon>
       <!--7.62x51mm M118 Full Metal Jacket Armor-Piercing Rounds-->
       <!--15-Round Box Magazine-->
       <Prerequisites>
