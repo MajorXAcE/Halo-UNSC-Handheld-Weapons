@@ -9,7 +9,7 @@
             // Enable your config files using the follow syntax, don't include the ".cs" extension:
             // PartFiles(Your1stConfigFile, Your2ndConfigFile, Your3rdConfigFile);
             PartFiles
-            (M392_DMR, M6_SpartanLaser);
+            (M6_SpartanLaser);
             //ArmorFiles(Armor1, Armor2);
             //SupportFiles(ArmorEnhancer1A);
             //UpgradeFiles(Upgrade75a, Upgrade75b);
