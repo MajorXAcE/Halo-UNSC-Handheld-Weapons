@@ -18,7 +18,7 @@
       </Size>
       <Mass>0.45</Mass>
       <Volume>0.2</Volume>
-      <Model>Models\Weapons\M6_SpartanLaser_Ammo_Small.mwm</Model>
+      <Model>Models\M6_Spartan_Laser_Halo_Handheld_Weapon_Ammo_Small.mwm</Model>
       <PhysicalMaterial>Ammo</PhysicalMaterial>
       <Capacity>150</Capacity>
       <AmmoDefinitionId Subtype="Blank" />
