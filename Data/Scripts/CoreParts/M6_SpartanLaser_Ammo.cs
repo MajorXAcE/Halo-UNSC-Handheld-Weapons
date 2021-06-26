@@ -22,7 +22,7 @@ namespace Scripts
     {
         private AmmoDef M6_SpartanLaser_Ammo => new AmmoDef
         {
-            AmmoMagazine = "M6_SpartanLaser_Ammo",
+            AmmoMagazine = "Energy",
             AmmoRound = "M6_SpartanLaser_Ammo",
             HybridRound = false, //AmmoMagazine based weapon with energy cost
             EnergyCost = 0f, //(((EnergyCost * DefaultDamage) * ShotsPerSecond) * BarrelsPerShot) * ShotsPerBarrel
@@ -32,7 +32,7 @@ namespace Scripts
             BackKickForce = 0f,
             DecayPerShot = 0f,
             HardPointUsable = true, // set to false if this is a shrapnel ammoType and you don't want the turret to be able to select it directly.
-            EnergyMagazineSize = 0,
+            EnergyMagazineSize = 150,
             IgnoreWater = false,
 
             Shape = new ShapeDef //defines the collision shape of projectile, defaults line and visual Line Length if set to 0
