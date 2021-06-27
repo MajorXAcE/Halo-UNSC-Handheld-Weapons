@@ -139,7 +139,7 @@ namespace Scripts
 
                     Effect1 = new ParticleDef
                     {
-                        Name = "", //
+                        Name = "Muzzle_Flash",
                         Color = Color(red: 1, green: 1, blue: 1, alpha: 1),
                         Offset = Vector(x: 0, y: 0, z: 0),
 
@@ -149,7 +149,7 @@ namespace Scripts
                             Restart = false,
                             MaxDistance = 100,
                             MaxDuration = 0,
-                            Scale = 1f,
+                            Scale = 4f,
                         },
                     },
                     Effect2 = new ParticleDef
